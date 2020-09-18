@@ -1,8 +1,8 @@
 <?php
-    $host = "localhost";
+    $host = "";
     $dbName = "marketDB";
-    $login = "postgres";
-    $password = "s3nh@";
+    $login = "";
+    $password = "";
 
     try{
         $PDO = new PDO("pgsql:host=${host};dbname=${dbName}", $login, $password);
